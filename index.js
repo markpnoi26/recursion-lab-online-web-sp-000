@@ -64,3 +64,9 @@ function maxOf(myArray) {
     return Math.max(myArray.pop(), maxOf(myArray));
   }
 }
+
+function includesNumber(array, num) {
+  if(array.length === 1 && array[0] === num) {
+    return true
+  }
+}
