@@ -35,4 +35,8 @@ function isPalindrome(string) {
   }
 }
 
+function addUpTo(array, indx) {
+  
+}
+
 console.log(isPalindrome("bob"))
