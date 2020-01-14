@@ -68,8 +68,8 @@ function maxOf(myArray) {
 function includesNumber(array, num) {
   if (array.length === 1 && array[0] === num) {
     return true
-  } else if (includesNumber(array.slice(1), num)) {
-    return true
+  } else if (array.length > 1) {
+    return includesNumber(array.slice(1), num)
   } else {
     return false
   }
