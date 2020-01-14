@@ -23,5 +23,11 @@ function reverseString(string) {
 }
 
 function isPalindrome(string) {
+  let count = string.length
   
+  if (count === 1) {
+    return true
+  } else if () {
+    
+  }
 }
