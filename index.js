@@ -45,4 +45,9 @@ function addUpTo(array, indx) {
   }
 }
 
+function maxOf(array) {
+  if (array.length === 1)
+}
+
+
 console.log(isPalindrome("bob"))
