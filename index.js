@@ -56,3 +56,11 @@ function addUpTo(array, indx) {
 // }
 
 // console.log(maxOf([1,2,9,4,5]))
+
+function maxOf(myArray) {
+  if (myArray.length === 1) {
+    return myArray[0];
+  } else {
+    return Math.max(myArray.pop(), maxOf(myArray));
+  }
+}
