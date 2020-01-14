@@ -74,3 +74,5 @@ function includesNumber(array, num) {
     return false
   }
 }
+
+console.log(includesNumber([1,2,3], 7))
