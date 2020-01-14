@@ -55,3 +55,4 @@ function maxOf(array) {
   }
 }
 
+console.log(maxOf([1,2,3,4,5]))
