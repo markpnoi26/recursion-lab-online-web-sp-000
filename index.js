@@ -35,4 +35,4 @@ function isPalindrome(string) {
   }
 }
 
-isPalindrome("bob")
+console.log(isPalindrome("bob"))
