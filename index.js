@@ -34,3 +34,5 @@ function isPalindrome(string) {
     return false
   }
 }
+
+isPalindrome("bob")
