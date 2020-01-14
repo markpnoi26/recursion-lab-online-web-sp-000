@@ -49,8 +49,8 @@ function maxOf(array) {
   let max; 
   
   if (array.length === 1) {
-    return 
-  }
+    return array[0]
+  } else if (maxOf(array.slice(1)) > )
   
   if (array.length !== 1) {
     // recursive function here
