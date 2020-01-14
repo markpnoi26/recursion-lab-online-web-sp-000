@@ -46,7 +46,11 @@ function addUpTo(array, indx) {
 }
 
 function maxOf(array) {
-  if (array.length === 1)
+  if (array.length !== 1) {
+    // recursive function here
+  } else {
+    return array[0]
+  }
 }
 
 
