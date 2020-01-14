@@ -38,7 +38,7 @@ function isPalindrome(string) {
 function addUpTo(array, indx) {
   let sum;
   // need indx -1 somewhere
-  if () {
+  if (indx !== 0) {
     
   }
 }
