@@ -46,16 +46,12 @@ function addUpTo(array, indx) {
 }
 
 function maxOf(array) {
-  let max; 
-  
   if (array.length === 1) {
     return array[0]
-  } else if (maxOf(array.slice(1)) > )
-  
-  if (array.length !== 1) {
-    // recursive function here
-  } else {
+  } else if (array[0] > maxOf(array.slice(1)) > ) {
     return array[0]
+  } else {
+    return maxOf(array.slice(1))
   }
 }
 
