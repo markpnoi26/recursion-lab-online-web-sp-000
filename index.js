@@ -29,7 +29,7 @@ function isPalindrome(string) {
     return true
   } else if (string[0] === string[string.length - 1]) {
     let substring = string.substring(1, string.length - 2)
-    return true && isPalindrome(substring)
+    return isPalindrome(substring)
   } else {
     return false
   }
