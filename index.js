@@ -46,6 +46,12 @@ function addUpTo(array, indx) {
 }
 
 function maxOf(array) {
+  let max; 
+  
+  if (array.length === 1) {
+    return 
+  }
+  
   if (array.length !== 1) {
     // recursive function here
   } else {
@@ -53,5 +59,3 @@ function maxOf(array) {
   }
 }
 
-
-console.log(isPalindrome("bob"))
