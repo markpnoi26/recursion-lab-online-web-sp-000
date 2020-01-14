@@ -45,14 +45,14 @@ function addUpTo(array, indx) {
   }
 }
 
-function maxOf(array) {
-  if (array.length === 1) {
-    return array[0]
-  } else if (array[0] > maxOf(array.slice(1))) {
-    return array[0]
-  } else {
-    return maxOf(array.slice(1))
-  }
-}
+// function maxOf(array) {
+//   if (array.length === 1) {
+//     return array[0]
+//   } else if (array[0] > maxOf(array.slice(1))) {
+//     return array[0]
+//   } else {
+//     return maxOf(array.slice(1))
+//   }
+// }
 
-console.log(maxOf([1,2,9,4,5]))
+// console.log(maxOf([1,2,9,4,5]))
