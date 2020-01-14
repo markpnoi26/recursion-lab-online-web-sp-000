@@ -39,7 +39,9 @@ function addUpTo(array, indx) {
   let sum;
   // need indx -1 somewhere
   if (indx !== 0) {
-    
+    return(array[indx] + addUpTo(array, indx-1))
+  } else {
+    return array[indx]
   }
 }
 
