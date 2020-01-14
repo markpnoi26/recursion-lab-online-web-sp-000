@@ -75,4 +75,4 @@ function includesNumber(array, num) {
   }
 }
 
-console.log(includesNumber([1,2,3], 7))
+console.log(includesNumber([1,2,3], 2))
